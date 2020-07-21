@@ -38,6 +38,8 @@
 		4BC70EC923F74E8C00197B7B /* NamedDisplayNodeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC70EC823F74E8C00197B7B /* NamedDisplayNodeBase.swift */; };
 		4BC70ECB23F74EAB00197B7B /* SafeAreaDisplayNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC70ECA23F74EAB00197B7B /* SafeAreaDisplayNode.swift */; };
 		4BC70ECD23F7557E00197B7B /* NamedDisplayCellNodeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC70ECC23F7557E00197B7B /* NamedDisplayCellNodeBase.swift */; };
+		4BCA9F4B24C5DF2B009EA96E /* VGridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCA9F4A24C5DF2B009EA96E /* VGridLayout.swift */; };
+		4BCA9F4D24C5DF5C009EA96E /* GridLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCA9F4C24C5DF5B009EA96E /* GridLayoutViewController.swift */; };
 		4BE65277246481D8004346D6 /* AdaptiveLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE65276246481D8004346D6 /* AdaptiveLayoutViewController.swift */; };
 		4BE6527A246481DE004346D6 /* SwitchCaseLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE65278246481DE004346D6 /* SwitchCaseLayout.swift */; };
 		4BE6527B246481DE004346D6 /* LayoutCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE65279246481DE004346D6 /* LayoutCondition.swift */; };
@@ -84,6 +86,8 @@
 		4BC70EC823F74E8C00197B7B /* NamedDisplayNodeBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedDisplayNodeBase.swift; sourceTree = "<group>"; };
 		4BC70ECA23F74EAB00197B7B /* SafeAreaDisplayNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaDisplayNode.swift; sourceTree = "<group>"; };
 		4BC70ECC23F7557E00197B7B /* NamedDisplayCellNodeBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedDisplayCellNodeBase.swift; sourceTree = "<group>"; };
+		4BCA9F4A24C5DF2B009EA96E /* VGridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGridLayout.swift; sourceTree = "<group>"; };
+		4BCA9F4C24C5DF5B009EA96E /* GridLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutViewController.swift; sourceTree = "<group>"; };
 		4BE65276246481D8004346D6 /* AdaptiveLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdaptiveLayoutViewController.swift; sourceTree = "<group>"; };
 		4BE65278246481DE004346D6 /* SwitchCaseLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCaseLayout.swift; sourceTree = "<group>"; };
 		4BE65279246481DE004346D6 /* LayoutCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutCondition.swift; sourceTree = "<group>"; };
@@ -203,6 +207,7 @@
 				4BB21B3B244E0974008CA2A4 /* MenuViewController.swift */,
 				4BB21B3D244E0E68008CA2A4 /* InstagramPostCellViewController.swift */,
 				4BE65276246481D8004346D6 /* AdaptiveLayoutViewController.swift */,
+				4BCA9F4C24C5DF5B009EA96E /* GridLayoutViewController.swift */,
 				4B6FA03A2468B6C900C21A53 /* CompositionCatalogViewController.swift */,
 				4B873C3B23084045006170B1 /* Main.storyboard */,
 				4B873C3E23084047006170B1 /* Assets.xcassets */,
@@ -235,6 +240,7 @@
 				4B8A3025234DF6AD00082092 /* MethodChain.swift */,
 				4BE65279246481DE004346D6 /* LayoutCondition.swift */,
 				4BE65278246481DE004346D6 /* SwitchCaseLayout.swift */,
+				4BCA9F4A24C5DF2B009EA96E /* VGridLayout.swift */,
 			);
 			path = SpecBuilder;
 			sourceTree = "<group>";
@@ -469,6 +475,7 @@
 				4BC70ECD23F7557E00197B7B /* NamedDisplayCellNodeBase.swift in Sources */,
 				4B086A462464434C0024F5A1 /* TextureSwiftSupport.swift in Sources */,
 				4B22761B2454A9E500F39A16 /* GradientNode.swift in Sources */,
+				4BCA9F4B24C5DF2B009EA96E /* VGridLayout.swift in Sources */,
 				4B873C2E23083FF4006170B1 /* SpecBuilder.swift in Sources */,
 				4B19E610244DD9F0009FD799 /* AnyDisplayNode.swift in Sources */,
 			);
@@ -478,6 +485,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BCA9F4D24C5DF5C009EA96E /* GridLayoutViewController.swift in Sources */,
 				4B873C4C230845E3006170B1 /* ViewController.swift in Sources */,
 				4BB21B3C244E0974008CA2A4 /* MenuViewController.swift in Sources */,
 				4BB21B3A244E06E6008CA2A4 /* Mocks.swift in Sources */,

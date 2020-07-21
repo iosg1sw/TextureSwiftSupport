@@ -20,6 +20,7 @@ final class MenuViewController: PlainDisplayNodeViewController {
   private let openSampleButtonNode = GlossButtonNode()
   private let openAdaptiveButtonNode = GlossButtonNode()
   private let openCompositionCatalogButtonNode = GlossButtonNode()
+  private let openGridLayoutNode = GlossButtonNode()
   private let topLabelNode = ASTextNode()
   
   override init() {
@@ -47,6 +48,12 @@ final class MenuViewController: PlainDisplayNodeViewController {
       self?.navigationController?.pushViewController(controller, animated: true)
     }
 
+
+    openGridLayoutNode.setDescriptor(descriptor.title("Open Grid".styled { $0.font(.boldSystemFont(ofSize: 18)).foregroundColor(.systemBlue) }), for: .normal)
+    openGridLayoutNode.onTap = { [weak self] in
+      let controller = GridLayoutViewController()
+      self?.navigationController?.pushViewController(controller, animated: true)
+    }
   }
     
   override func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec {
@@ -59,6 +66,7 @@ final class MenuViewController: PlainDisplayNodeViewController {
         
         CenterLayout {
           VStackLayout {
+            openGridLayoutNode
             openSampleButtonNode
             openAdaptiveButtonNode
             openCompositionCatalogButtonNode
